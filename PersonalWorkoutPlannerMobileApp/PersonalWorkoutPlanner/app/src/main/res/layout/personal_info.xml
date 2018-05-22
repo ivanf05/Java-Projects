@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    android:id="@+id/personal_info"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/instructions"
+        android:text="Information"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textColor="#D3D3D3" />
+
+    <EditText
+        android:layout_width="394dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="#D3D3D3"
+        android:textColor="#D3D3D3"
+        android:layout_weight="0.00"
+        android:id="@+id/name"
+        android:cursorVisible="false"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:id="@+id/age"
+        android:hint="Age"
+        android:textColorHint="#D3D3D3"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/weightEditText"
+        android:hint="Weight"
+        android:textColorHint="#D3D3D3"
+        android:textColor="#D3D3D3"/>
+
+    <TextView
+        android:text="Gender?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/genderTextView"
+        android:textSize="18sp"
+        android:textColor="#D3D3D3"
+        />
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+        <RadioButton
+            android:text="Male"
+            android:textColor="#D3D3D3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/maleButton" />
+
+        <RadioButton
+            android:text="Female"
+            android:textColor="#D3D3D3"
+            android:layout_width="97dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/femaleButton" />
+   </RadioGroup>
+
+
+    <TextView
+        android:text="Fitness Goal"
+        android:textColor="#D3D3D3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/availabiltiyTextView"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup2"
+        android:layout_width="match_parent"
+        android:layout_height="76dp">
+        <RadioButton
+            android:text="Lose Weight"
+            android:textColor="#D3D3D3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goalButton1" />
+
+        <RadioButton
+            android:text="Gain Muscle"
+            android:textColor="#D3D3D3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/goalButton2"/>
+   </RadioGroup>
+
+    <Button
+        android:text="Generate Plan"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:layout_gravity="center"
+        android:onClick="buttonClick3"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:text="Main Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainMenu"
+        android:onClick="buttonClick4"/>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="122dp"
+        android:layout_height="78dp"
+        android:src="@drawable/dumbbell"
+
+        android:layout_below="@+id/existing_workout_plans"
+        android:layout_alignRight="@+id/new_workout_plan"
+        android:layout_alignEnd="@+id/new_workout_plan" />
+
+
+
+
+</LinearLayout>

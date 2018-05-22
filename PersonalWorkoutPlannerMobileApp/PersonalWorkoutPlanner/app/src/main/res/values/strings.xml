@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PersonalWorkoutPlanner</string>
+    <string name="new_workout_plan">New Workout Plan</string>
+    <string name="existing_workout_plans">Existing Workout Plans</string>
+    <string name="edit">Edit</string>
+    <string name="day">Day</string>
+    <string name="update">Update</string>
+    <string name="exercise1">Exercise #1</string>
+    <string name="exercise2">Exercise #2</string>
+    <string name="exercise3">Exercise #3</string>
+    <string name="exercise4">Exercise #4</string>
+    <string name="exercise5">Exercise #5</string>
+    <string name="description1">Description #1</string>
+    <string name="description2">Description #2</string>
+    <string name="description3">Description #3</string>
+    <string name="description4">Description #4</string>
+    <string name="description5">Description #5</string>
+    <string name="description6">Description #6</string>
+    <string name="cardio">Cardio</string>
+    <string name="back">Back</string>
+</resources>

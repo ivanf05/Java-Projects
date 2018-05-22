@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/download"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:hint="Enter Day"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/day"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:hint="Enter Exercise #1:"
+        android:textColorHint="#D3D3D3"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex1"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:hint="Enter Exercise #1 Description:"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/des1"
+        android:textColor="#D3D3D3"/>
+
+
+
+    <EditText
+        android:hint="Enter Exercise #2:"
+        android:textColorHint="#D3D3D3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex2"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:hint="Enter Exercise #2 Description:"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/des2"
+        android:textColor="#D3D3D3"/>
+
+
+
+    <EditText
+        android:hint="Enter Exercise #3:"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex3"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:hint="Enter Exercise #3 Description:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#D3D3D3"
+        android:id="@+id/des3"
+        android:textColor="#D3D3D3"/>
+
+
+    <EditText
+        android:hint="Enter Exercise #4:"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/ex4"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:hint="Enter Exercise #4 Description:"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/des4"
+        android:textColor="#D3D3D3"/>
+
+
+
+    <EditText
+
+        android:hint="Enter Cardio"
+        android:layout_width="match_parent"
+        android:textColorHint="#D3D3D3"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardio"
+        android:textColor="#D3D3D3"/>
+
+    <EditText
+        android:hint="Enter Cardio Description:"
+        android:textColorHint="#D3D3D3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:textColor="#D3D3D3"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:text="add"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="buttonClick4"
+        />
+</LinearLayout>
